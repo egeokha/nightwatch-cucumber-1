@@ -13,10 +13,10 @@ Here’s how to set up a debugging sesssion.
     ...
     {
       "type": "node",
-      "request": "launch",
+      "request": "attach",
       "name": "Nightwtach",
       "program": "${workspaceRoot}/node_modules/nightwatch/bin/nightwatch",
-      "args": []
+      "args": [],
     }
   ]
 }
